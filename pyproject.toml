@@ -1,0 +1,15 @@
+[project]
+name = "math-for-ml"
+version = "0.1.0"
+dependencies = [
+    "numpy==2.5.5",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==9.2.0",
+    "scipy==1.18.1",
+]
+notebook = [
+    "ipykernel==7.4.0",
+]
